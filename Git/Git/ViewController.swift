@@ -6,6 +6,7 @@ class ViewController: UIViewController {
     private let mainLabel: UILabel = {
         let label = UILabel()
         label.textColor = .red  // 이 부분을 추가
+        
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
