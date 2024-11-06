@@ -6,9 +6,9 @@ class ViewController: UIViewController {
     private let mainLabel: UILabel = {
         let label = UILabel()
         label.text = "A의 라벨입니다X"  // 이 부분을 수정
-        label.textAlignment = .left
-        label.font = .boldSystemFont(ofSize: 30)  // 이 부분을 수정
-        label.textColor = .red  // 이 부분을 추가
+        
+        
+        
         
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
