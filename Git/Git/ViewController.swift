@@ -2,11 +2,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    // mainLabel 부분만 수정하세요!
     private let mainLabel: UILabel = {
         let label = UILabel()
-        label.text = "안녕하세요"
+        label.text = "A의 라벨입니다"  // 이 부분을 수정
         label.textAlignment = .center
-        label.font = .systemFont(ofSize: 24)
+        label.font = .boldSystemFont(ofSize: 30)  // 이 부분을 수정
+        label.textColor = .red  // 이 부분을 추가
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
