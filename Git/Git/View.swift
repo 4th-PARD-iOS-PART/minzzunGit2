@@ -11,7 +11,8 @@ class View : UIView {
     }
     let label : UILabel = {
         let view = UILabel()
-        
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.text = "제발 나라"
         return view
     }()
 }
